@@ -1,6 +1,25 @@
 # PhysitrackExercise
+## Notes:
+    Project by default is pointing to selenium server on ec2-3-80-30-46.compute-1.amazonaws.com. You can change it manually in appsettings.json
+    You can check automation progress by logining in to ec2-3-80-30-46.compute-1.amazonaws.com via Remote Desktop Connection by using:
+        Login: Administrator
+        Password: Sent in the email.
+    
 ## How to run the project
-### 1. Localy on Windows:
+        
+### 1. Remotely on Windows:
+    1. Login via Remote Desktop Connection to: ec2-3-80-30-46.compute-1.amazonaws.com 
+            Login: Administrator 
+            Password: Sent in the email.
+    2. Make sure that java server is running on http://localhost:4444/ui, if not, start StartSeleniumServer.bat on the desktop.
+    3. Fresh copy copy of the project should be in C:\physitrack.
+    4. To build it, please run BuildAutomatedScript.bat on the desktop.
+    5. To run the solution, please run RunAutomatedScript.bat on the desktop.
+    6. Test results should be displayed in the console and in "C:\physitrack\Physitrack.WebAutomation\bin\Release\netcoreapp3.1\TestResult.xml".
+    
+    Notes: Host is running in NAM, because of that automation step: Pick USA as your country (server selection), is not appearing in the browser.
+
+### 2. Localy on Windows:
     Prerequisites:
     1. Java is installed.
     2. Selenium server is installed: https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar
@@ -23,19 +42,9 @@
     3. To run the solution:
         cd Project_Dir\Physitrack.WebAutomation\bin\Release\netcoreapp3.1
         *\nunit3-console.exe Physitrack.WebAutomation.dll
-    
-### 2. Localy on Linux:
+        
+### 3. Localy on Linux:
 
-### 3. Remotely on Windows:
-    1. Login via Remote Desktop Connection to: ec2-3-80-30-46.compute-1.amazonaws.com 
-            Login: Administrator 
-            Password: Sent in the email.
-    2. Make sure that java server is running on http://localhost:4444/ui, if not, start StartSeleniumServer.bat on the desktop.
-    3. Fresh copy copy of the project should be in C:\physitrack.
-    4. To build it, please run BuildAutomatedScript.bat on the desktop.
-    5. To run the solution, please run RunAutomatedScript.bat on the desktop.
-    6. Test results should be displayed in the console and in "C:\physitrack\Physitrack.WebAutomation\bin\Release\netcoreapp3.1\TestResult.xml".
-    
-    Notes: Host is running in NAM, because of that automation step: Pick USA as your country (server selection), is not appearing in the browser.
+
 
     
