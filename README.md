@@ -21,19 +21,22 @@
 
 ### 2. Localy on Windows:
     Prerequisites:
+    1. .NET Core 3.1 SDK is installed: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
+    2. .NET Framework 4.5 might have to be installed: https://www.microsoft.com/pl-pl/download/details.aspx?id=30653
+    3. .NET Runtime 3.1 is installed: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
+    4. NUnit Console Runner is installed: https://github.com/nunit/nunit-console/releases
+    5. Build Tools (MSBuild) for Visual Studio 2022 are installed: https://aka.ms/vs/17/release/vs_BuildTools.exe 
+    6. Environment variables are set up correctly:
+        1. New variable: MSBuildSDKsPath with value: C:\Program Files\dotnet\sdk\3.1.421\Sdks (default path pointing to .NET Core 3.1 SDK install location) should be     added. 
+    If you want to run selenium server locally, make sure that:
     1. Java is installed.
     2. Selenium server is installed: https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar
     3. Chrome browser is installed.
     4. Chrome driver is installed: https://chromedriver.chromium.org/downloads
-    5. NUnit Console Runner is installed: https://github.com/nunit/nunit-console/releases
-    6. .NET Framework 4.5 might have to be installed: https://www.microsoft.com/pl-pl/download/details.aspx?id=30653
-    7. .NET Core 3.1 SDK is installed: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
-    8. .NET Runtime 3.1 is installed: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
-    9. Build Tools (MSBuild) for Visual Studio 2022 are installed: https://aka.ms/vs/17/release/vs_BuildTools.exe
-    10. Environment variables are set up correctly:
-        1. System/User variable: Path should contain directory where Chrome driver is installed.
-        2. New variable: MSBuildSDKsPath with value: C:\Program Files\dotnet\sdk\3.1.421\Sdks (default path pointing to .NET Core 3.1 SDK install location) should be     added. 
-    11. Reboot machine.
+    5. Environment variables are set up correctly:
+            1. System/User variable: Path should contain directory where Chrome driver is installed.
+    Reboot machine.
+    
         
     Building and running solution:
     1. Build solution by running: "*\MSBuild.exe" "*\Physitrack.WebAutomation.sln" /p:Configuration=Release /p:Platform="Any CPU" /restore
