@@ -18,8 +18,10 @@
 ### 2. Localy on Linux:
 
 ### 3. Remotely on Windows:
-    1. Login via Remote Desktop Connection to ec2-3-80-30-46.compute-1.amazonaws.com Login: Administrator, Password: Sent in the email.
-    2. Make sure that java server is running on http://localhost:4444/ui, if not, run StartSeleniumServer.bat on the desktop.
+    1. Login via Remote Desktop Connection to: ec2-3-80-30-46.compute-1.amazonaws.com 
+            Login: Administrator 
+            Password: Sent in the email.
+    2. Make sure that java server is running on http://localhost:4444/ui, if not, start StartSeleniumServer.bat on the desktop.
     3. Fresh copy copy of the project should be in C:\physitrack.
     4. To build it, please run BuildAutomatedScript.bat on the desktop.
     5. To run the solution, please run RunAutomatedScript.bat on the desktop.
