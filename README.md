@@ -14,6 +14,15 @@
     10. Environment variables are set up correctly:
         1. System/User variable: Path should contain directory where Chrome driver is installed.
         2. New variable: MSBuildSDKsPath with value: C:\Program Files\dotnet\sdk\3.1.421\Sdks (default path pointing to .NET Core 3.1 SDK install location) should be     added. 
+    11. Reboot machine.
+        
+    Building and running solution:
+    1. Build solution by running: "*\MSBuild.exe" "*\Physitrack.WebAutomation.sln" /p:Configuration=Release /p:Platform="Any CPU" /restore
+        Note: MSBuild default location is C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\MSBuild.exe
+    2. Start selenium server: java -jar selenium-server-4.3.0.jar standalone
+    3. To run the solution:
+        cd Project_Dir\Physitrack.WebAutomation\bin\Release\netcoreapp3.1
+        *\nunit3-console.exe Physitrack.WebAutomation.dll
     
 ### 2. Localy on Linux:
 
