@@ -17,7 +17,7 @@
     5. To run the solution, please run RunAutomatedScript.bat on the desktop.
     6. Test results should be displayed in the console and in "C:\physitrack\Physitrack.WebAutomation\bin\Release\netcoreapp3.1\TestResult.xml".
     
-    Notes: Host is running in NAM, because of that automation step: Pick USA as your country (server selection), is not appearing in the browser.
+    Notes: Host is running in NAM region, because of that automation step: Pick USA as your country (server selection), is not appearing in the browser.
 
 ### 2. Localy on Windows:
     Prerequisites:
