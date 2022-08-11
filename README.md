@@ -12,7 +12,7 @@
             Login: Administrator 
             Password: Sent in the email.
     2. Make sure that java server is running on http://localhost:4444/ui, if not, start StartSeleniumServer.bat on the desktop.
-    3. Fresh copy copy of the project should be in C:\physitrack.
+    3. Fresh copy of the project should be in C:\physitrack.
     4. To build it, please run BuildAutomatedScript.bat on the desktop.
     5. To run the solution, please run RunAutomatedScript.bat on the desktop.
     6. Test results should be displayed in the console and in "C:\physitrack\Physitrack.WebAutomation\bin\Release\netcoreapp3.1\TestResult.xml".
