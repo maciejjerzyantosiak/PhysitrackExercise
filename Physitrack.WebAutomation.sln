@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Physitrack.WebAutomation", "Physitrack.WebAutomation\Physitrack.WebAutomation.csproj", "{FDB81B3D-F944-46BD-B304-D92D4033EEED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Physitrack.AutomationFramework", "Physitrack.AutomationFramework\Physitrack.AutomationFramework.csproj", "{C709AC24-A6DC-4450-B655-BA8A6B4873CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDB81B3D-F944-46BD-B304-D92D4033EEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB81B3D-F944-46BD-B304-D92D4033EEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB81B3D-F944-46BD-B304-D92D4033EEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB81B3D-F944-46BD-B304-D92D4033EEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C709AC24-A6DC-4450-B655-BA8A6B4873CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C709AC24-A6DC-4450-B655-BA8A6B4873CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C709AC24-A6DC-4450-B655-BA8A6B4873CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C709AC24-A6DC-4450-B655-BA8A6B4873CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA6856C6-6516-43B6-BBCB-0186620E14AC}
+	EndGlobalSection
+EndGlobal
