@@ -47,7 +47,28 @@
         *\nunit3-console.exe Physitrack.WebAutomation.dll
         
 ### 3. Localy on Linux:
-
-
+    Prerequisites:
+    Install .NET Core 3.1 by following instructions on Microsoft page: https://docs.microsoft.com/en-us/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/1-3-install-dotnet-core-linux
+    Commands to run:
+    1. wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+    2. sudo dpkg -i packages-microsoft-prod.deb
+    3. sudo apt update
+    4. sudo apt install dotnet-sdk-3.1
+    5. To check if dotnet was installed correctly, please run: dotnet --info
+    
+    Building and running solution:
+    1. Download and unzip project.
+    2. Open terminal in the main directory where Physitrack.WebAutomation.sln is.
+    3. Run: dotnet msbuild Physitrack.WebAutomation.sln -restore
+    4. Make sure that selenium server is running on the remote host: http://ec2-3-80-30-46.compute-1.amazonaws.com:4444/ui, if not start it by using remote desktop or let me know. 
+    5. Open terminal in /PhysitrackExercise-main/Physitrack.WebAutomation/bin/Debug/netcoreapp3.1
+    6. Run project with command: dotnet test Physitrack.WebAutomation.dll
+    
+    Note. You can also trigger selenium server locally and change url in /PhysitrackExercise-main/Physitrack.WebAutomation/bin/Debug/netcoreapp3.1/appsettings.json
+    Prerequisites:
+        1. Java.
+        2. Chrome.
+        3. Chrome driver.
+        4. Selenium server.
 
     
