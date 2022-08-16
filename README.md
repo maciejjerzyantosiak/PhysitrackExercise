@@ -46,7 +46,7 @@
         cd Project_Dir\Physitrack.WebAutomation\bin\Release\netcoreapp3.1
         *\nunit3-console.exe Physitrack.WebAutomation.dll
         
-### 3. Localy on Linux:
+### 3. Locally on Linux:
     Prerequisites:
     Install .NET Core 3.1 by following instructions on Microsoft page: https://docs.microsoft.com/en-us/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/1-3-install-dotnet-core-linux
     Commands to run:
