@@ -1,13 +1,15 @@
-# PhysitrackExercise
-## Notes:
-    Project by default is pointed to the selenium server on ec2-3-80-30-46.compute-1.amazonaws.com. You can change it manually in appsettings.json
-    You can check automation progress by logging in to ec2-3-80-30-46.compute-1.amazonaws.com via Remote Desktop Connection by using:
-        Login: Administrator
-        Password: Sent in the email.
+# Physitrack Exercise - recruitment project
+## Introduction
+    Welcome to the PhysitrackExercise project. This project is geared toward automation testing and aims to ensure the seamless functionality of Physitrack Web applications. Here, you'll find detailed instructions for setting up and running the project, whether you prefer a remote or local environment.
+
+## Project Configuration:
+    Before we dive into the steps for running the project, here are a few essential configuration notes:
+    Default Selenium Server: The project is configured to connect to the Selenium server hosted at ec2-3-80-30-46.compute-1.amazonaws.com by default. You can manually adjust this configuration in the appsettings.json file.
+    Remote Access: For remote access and monitoring of the automation progress, you can log in to the server at ec2-3-80-30-46.compute-1.amazonaws.com using Remote Desktop Connection. Credentials for login are provided via email.
     
-## How to run the project
+## Running the Project
         
-### 1. Remotely on Windows:
+### Option 1: Remote Execution on Windows
     1. Login via Remote Desktop Connection to: ec2-3-80-30-46.compute-1.amazonaws.com 
             Login: Administrator 
             Password: Sent in the email.
@@ -19,7 +21,7 @@
     
     Notes: Host is running in NAM region, because of that automation step: Pick USA as your country (server selection), is not appearing in the browser.
 
-### 2. Locally on Windows:
+### Option 2: Local Execution on Windows
     Prerequisites:
     1. .NET Core 3.1 SDK is installed: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
     2. .NET Framework 4.5 might have to be installed: https://www.microsoft.com/pl-pl/download/details.aspx?id=30653
@@ -46,7 +48,7 @@
         cd Project_Dir\Physitrack.WebAutomation\bin\Release\netcoreapp3.1
         *\nunit3-console.exe Physitrack.WebAutomation.dll
         
-### 3. Locally on Linux:
+### Option 3: Local Execution on Linux
     Prerequisites:
     Install .NET Core 3.1 by following instructions on Microsoft page: https://docs.microsoft.com/en-us/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/1-3-install-dotnet-core-linux
     Commands to run:
