@@ -3,9 +3,9 @@
 Welcome to the PhysitrackExercise project. This project is geared toward automation testing and aims to ensure the seamless functionality of Physitrack Web applications. Here, you'll find detailed instructions for setting up and running the project, whether you prefer a remote or local environment.
 
 ## Project Configuration:
-Before we dive into the steps for running the project, here are a few essential configuration notes:
-Default Selenium Server: The project is configured to connect to the Selenium server hosted at ec2-3-80-30-46.compute-1.amazonaws.com by default. You can manually adjust this configuration in the appsettings.json file.
-Remote Access: For remote access and monitoring of the automation progress, you can log in to the server at ec2-3-80-30-46.compute-1.amazonaws.com using Remote Desktop Connection. Credentials for login are provided via email.
+Before we dive into the steps for running the project, here are a few essential configuration notes: 
+    Default Selenium Server: The project is configured to connect to the Selenium server hosted at ec2-3-80-30-46.compute-1.amazonaws.com by default. You can manually adjust this configuration in the appsettings.json file.
+    Remote Access: For remote access and monitoring of the automation progress, you can log in to the server at ec2-3-80-30-46.compute-1.amazonaws.com using Remote Desktop Connection. Credentials for login are provided via email.
     
 ## Running the Project
         
