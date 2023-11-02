@@ -1,6 +1,6 @@
 # Physitrack Exercise - recruitment project
 ## Introduction
-    Welcome to the PhysitrackExercise project. This project is geared toward automation testing and aims to ensure the seamless functionality of Physitrack Web applications. Here, you'll find detailed instructions for setting up and running the project, whether you prefer a remote or local environment.
+Welcome to the PhysitrackExercise project. This project is geared toward automation testing and aims to ensure the seamless functionality of Physitrack Web applications. Here, you'll find detailed instructions for setting up and running the project, whether you prefer a remote or local environment.
 
 ## Project Configuration:
     Before we dive into the steps for running the project, here are a few essential configuration notes:
